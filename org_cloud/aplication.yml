@@ -1,0 +1,6 @@
+---
+# Items that apply to ALL profiles:
+eureka:
+  client:
+    serviceUrl:      
+      defaultZone: http://primary:8011/eureka/,http://secondary:8012/eureka/
